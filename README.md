@@ -1,5 +1,24 @@
 # Question
 
+اصل SOLID چیست
+-------------------
+در نوشتن کد باید از 5 اصل پیروی کرد
+
+Single Responsibility Principle یا اصل تک وظیفگی (SRP)
+
+Open/Closed Principle یا اصل باز و بسته بودن (OCP)
+
+Liskov Substitution Principle یا اصل جانشینی لیسکف (LSP)
+
+Interface Segregation Principle یا اصل تفکیک Interface (ISP)
+
+Dependency Inversion Principle یا اصل وارونه کردن وابستگی (DIP)
+
+اصل  تفکیک Interface
+-----------------
+بر اساس اصل تفکیک Interface ما نباید از Interface هایی استفاده کنیم که بیش از حد چاق هستند یا مجبور به استفاده از Interface هایی شوند که متدهای بلا استفاهده داشته باشند
+
+
 اصل dependency inversion یا اصل وارونگی وابستگی یا DIP چیست
 -----------------
 ماژول‌های سطح بالای برنامه نباید به ماژول‌های سطح پایین آن وابسته باشند هر دو باید به Abstraction‌ها وابسته باشند منظور این است همیشه از Interface‌ها و Abstract‌ها در برنامه نویسی استفاده کنیم
