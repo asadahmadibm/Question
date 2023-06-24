@@ -3,16 +3,33 @@
 درباره Clean Code توضیح دهید
 ------------------
 قواعد برنامه نویسی :
+
 1- طول نام توابع و متغیرها بیشتر از 25 کاراکتر نشود
+
 2- نامگذاری با معنی داشته باشیم و طوری کد بنویسیم که به کامنت کمتری نیاز باشد
+
 3- از کمل کیس برای نامگذاری استفاده کنیم
+
 4- اصول solid و dry را رعایت شود
+
 5- پارامترهای ورودی نباید از 4 تا بیشتر شود
+
 6- اصول encapsolation  رعایت شود
+
 7- کلاسها نباید بزرگ باشند
+
 8- از design pattern  ها استفاده کنیم
+
 9- چوری کد بنویسیم که نفر بعدی را در نظر بگیریم
+
 10 - تست نویسی
+
+انواع نامگذاری متغیرها یا فانکشن ها
+----------------------
+kebab case : all words are lowercase, and each word gets separated by a dash                                                   : number-of-donuts = 34
+pascal case : every word starts with an uppercase letter                                                                       : NumberOfDonuts = 34
+camel case : you start by making the first word lowercase. Then, you capitalize the first letter of each word that follows     : numberOfDonuts = 34
+snake case : When using snake case, all letters need to be lowercase  and separates each word with an underscore character     : number_of_donuts = 34
 
 
 اصل SOLID چیست
