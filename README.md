@@ -84,6 +84,15 @@ Dependency Inversion Principle یا اصل وارونه کردن وابستگی 
 ---------------------------
 جهت طراحی کلاسهای پیچیده استفاده میشه که یک راه ان استفاده از پارامتر در سازنده کلاس است که اگر حالتهای مختلف رو در نظر بگیریم ارسال پارامترهای فراوان که در بعضی حالات نال هم میباشند کار نامعقولی است در این حالت با تعریف یک اینترفیس اجزای ساخت رو بصورت متد تعریف میکنیم بعد برای هر نوع مشخص کلاسی تعریف میکنیم که از اینترفیس تبعیت کند 
 
+درباره CQRS توضیح دهید
+------------
+الگوی یا Command and Query Responsibility Segregation جداسازی عملیات خواندن و نوشتن داده را میگوید
+
+When to use CQRS
+-------------------
+We can use Command Query Responsibility Segregation when the application is huge and access the same data in parallel. CQRS helps reduce merge conflicts while performing multiple operations with data.
+In DDD terminology, if the domain data model is complex and needs to perform many operations on priority like validations and executing some business logic so in that case, we need the consistency that we will by using CQRS.
+
 کتابخانه MediatR
 ----------------------------
 در الگوی Mediator دیگر کلاس ها و سرویس ها با یکدیگر مستقیم در ارتباط نیستند بلکه درخواست خود را از طریق یک واسط می فرستند و از طریق همان واسط، پاسخ مربوطه را دریافت میکنند. این کار باعث می شود که وابستگی شدید بین دو سرویس به حداقل برسد و Loose Coupling داشته باشیم که به توسعه و نگهداری یک پروژه کمک شایانی میکند.
