@@ -27,8 +27,11 @@
 انواع نامگذاری متغیرها یا فانکشن ها
 ----------------------
 kebab case : all words are lowercase, and each word gets separated by a dash                                                   : number-of-donuts = 34
+
 pascal case : every word starts with an uppercase letter                                                                       : NumberOfDonuts = 34
+
 camel case : you start by making the first word lowercase. Then, you capitalize the first letter of each word that follows     : numberOfDonuts = 34
+
 snake case : When using snake case, all letters need to be lowercase  and separates each word with an underscore character     : number_of_donuts = 34
 
 
@@ -84,6 +87,8 @@ Dependency Inversion Principle یا اصل وارونه کردن وابستگی 
 کتابخانه MediatR
 ----------------------------
 در الگوی Mediator دیگر کلاس ها و سرویس ها با یکدیگر مستقیم در ارتباط نیستند بلکه درخواست خود را از طریق یک واسط می فرستند و از طریق همان واسط، پاسخ مربوطه را دریافت میکنند. این کار باعث می شود که وابستگی شدید بین دو سرویس به حداقل برسد و Loose Coupling داشته باشیم که به توسعه و نگهداری یک پروژه کمک شایانی میکند.
+
+MediatR pattern helps to reduce direct dependency between multiple objects and make them collaborative through MediatR.
 
 در این الگو هر گونه ارتباط مستقیم بین دو شیء را محدود کرده و برای ارتباط پیدا کردن با هم آن ها را مجبور به استفاده از یک شیء رابط به نام Mediator می کنیم الگوی Mediator به ما این توانایی را می دهد که یک شبکه ی منظمی از ارتباط بین اجزای مختلف فرم ها ایجاد کنیم و شلختگی یا پیچیدگی را تا حد قابل ملاحظه ای کاهش دهیم
 
