@@ -115,6 +115,7 @@ Include command , handler , response ,INotification ,INotificationHandler ,Behav
 
 bevavour : قبل و بعد هر درخواست این کار انجام شود
 
+#توضیحات در پروژه CleanArtchitecture آمده است
 
 کلمه Value Objects چیست
 --------------------------
