@@ -24,8 +24,11 @@
 
 10 - تست نویسی
 
+
 انواع نامگذاری متغیرها یا فانکشن ها
 ----------------------
+فقط مت۶یر محلی camel case باشد بقیه pascal case
+
 kebab case : all words are lowercase, and each word gets separated by a dash                                                   : number-of-donuts = 34
 
 pascal case : every word starts with an uppercase letter                                                                       : NumberOfDonuts = 34
