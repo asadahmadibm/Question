@@ -1,5 +1,8 @@
 # Question
 
+12 Bad Practices to Avoid in ASP.NET Core API Controllers | by Andy | Jul, 2023 | Level Up Coding
+https://levelup.gitconnected.com/12-bad-practices-to-avoid-in-asp-net-core-api-controllers-3ba52a10954e
+
 درباره Clean Code توضیح دهید
 ------------------
 قواعد برنامه نویسی :
